@@ -18,18 +18,20 @@
 	<!-- NavBrand AGL Logo-->
 	<ul class="nav-brand nav navbar p-3 list-unstyled" style="background-color: rgb(32, 66, 66)">
 	   <li class="nav-item">
-		   <a class="nav-link active AGL" href="#"><img src="assets/images/long logo copy.png" alt="AGL sounds"></a>
+		   <a class="nav-link active AGL" href="#"><img src="assets/images/images copy/long logo.png" alt="AGL sounds"></a>
 		 </li>
 		 
 	<!-- Rest of NavBar with additional dropdown and menu items-->
-	<ul class="nav nav-bar">
-	   <li class="nav-item dropdown">
+	<!--<div id="entirelist">-->
+	<ul class="nav nav-bar"> 
+	  <li class="nav-item dropdown">
 		  <a class="nav-link dropdown-toggle studio" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" >Studio</a>
 		  <div class="dropdown-menu">
-			 <a class="dropdown-item" href="#">Gear</a>
-			 <div class="dropdown-divider"></div>
-			 <a class="dropdown-item" href="#">Policies</a>
-	   </li>
+			<a class="dropdown-item" href="#">Gear</a>
+			<div class="dropdown-divider"></div>
+			<a class="dropdown-item" href="#">Policies</a>
+			</div>
+		</li>	
 		<li class="nav-item dropdown">
 		  <a class="nav-link dropdown-toggle projects" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Projects</a>
 		  <div class="dropdown-menu">
@@ -48,11 +50,13 @@
 			<a class="nav-link contact" href="#">Contact</a>
 	   </li>
 		</ul>
+		<!--</div>-->
 	</ul>
+
 	  
 	  <!-- Jumbotron/ probably add slideshow scroll animation feature. will require .js // add overlay to jumbotron float bottom right-->
 	  <div class="jumbotron-fluid bg-success my-4 mx-auto p-5 text-center">
-			<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique mollitia eos error, in, dolores excepturi odio aliquid eius! Ex facere laudantium veritatis accusamus, a, minus velit at placeat sunt enim.</h1>
+			<div id="workspace"></div>
 		</div>
 			<!-- block quote will need slide animation feature. will require .js-->
 		<div class="card p-3 text-center">
@@ -100,7 +104,7 @@
 	  <footer class="footer text-center bg-dark py-2">
 			<ul class="nav-brand nav navbar bg-dark p-3 list-unstyled">
 	   		<li class="nav-item">
-		   		<a class="nav-link active"><strong>&copy; 2018 <em>altamash momin, doug gallo, ryan hillsinger</em></strong></a>
+					 <a class="nav-link active"><strong>&copy; 2018 <em>altamash momin, doug gallo, ryan hillsinger</em></strong></a>
 	   		</li>
 	  
 					<ul class="nav nav-bar" id="icons">
@@ -120,11 +124,12 @@
 			</ul>
 		</footer>
 	  
-	  
+	  <script src="assets/javascript/site.js"></script>
 		  
 
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
