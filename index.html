@@ -16,49 +16,41 @@
   <body>
 
 	<!-- NavBrand AGL Logo-->
-	<ul class="nav-brand nav navbar bg-dark p-3 list-unstyled">
+	<ul class="nav-brand nav navbar p-3 list-unstyled" style="background-color: rgb(32, 66, 66)">
 	   <li class="nav-item">
-		   <a class="nav-link active" href="#"><img src="assets/images/long logo copy.png" alt="AGL sounds"></a>
+		   <a class="nav-link active AGL" href="#"><img src="assets/images/long logo copy.png" alt="AGL sounds"></a>
 		 </li>
 		 
 	<!-- Rest of NavBar with additional dropdown and menu items-->
 	<ul class="nav nav-bar">
 	   <li class="nav-item dropdown">
-		  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" id="studio" >Studio</a>
+		  <a class="nav-link dropdown-toggle studio" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" >Studio</a>
 		  <div class="dropdown-menu">
-			 <a class="dropdown-item" href="#" id="staff">Staff</a>
+			 <a class="dropdown-item" href="#">Gear</a>
 			 <div class="dropdown-divider"></div>
-			 <a class="dropdown-item" href="#" id="gear">Gear</a>
+			 <a class="dropdown-item" href="#">Policies</a>
+	   </li>
+		<li class="nav-item dropdown">
+		  <a class="nav-link dropdown-toggle projects" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Projects</a>
+		  <div class="dropdown-menu">
+			 <a class="dropdown-item" href="#">Music</a>
 			 <div class="dropdown-divider"></div>
-			 <a class="dropdown-item" href="#" id="workspace">Workspace</a>
+			 <a class="dropdown-item" href="#">Photography</a>
 		  </div>
 	   </li>
 		<li class="nav-item dropdown">
-		  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" id="musicathouse">Music At The House</a>
-		  <div class="dropdown-menu">
-			 <a class="dropdown-item" href="#" id="soundsofhouse">Sounds Of The House</a>
-			 <div class="dropdown-divider"></div>
-			 <a class="dropdown-item" href="#" id="onetakesesh">One Take Sessions</a>
-		  </div>
-	   </li>
-		<li class="nav-item dropdown">
-		  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" id="photography">Photography</a>
-		  <div class="dropdown-menu">
-			 <a class="dropdown-item" href="#" id="savan">Savan Sekhon Photography</a>
-			 <div class="dropdown-divider"></div>
-			 <a class="dropdown-item" href="#" id="bigbody">Big Body Photography</a>
-		  </div>
+		  <a class="nav-link family" href="#" >Family</a>
 	   </li>
 	   <li class="nav-item">
-		  <a class="nav-link" href="#" id="services">Services</a>
+		  <a class="nav-link services" href="#">Services</a>
 		</li>
 		<li class="nav-item">
-			<a class="nav-link" href="#" id="contact">Contact</a>
+			<a class="nav-link contact" href="#">Contact</a>
 	   </li>
 		</ul>
 	</ul>
 	  
-	  <!-- Jumbotron/ probably add slideshow scroll animation feature. will require .js // add overlay to jumbotron-->
+	  <!-- Jumbotron/ probably add slideshow scroll animation feature. will require .js // add overlay to jumbotron float bottom right-->
 	  <div class="jumbotron-fluid bg-success my-4 mx-auto p-5 text-center">
 			<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique mollitia eos error, in, dolores excepturi odio aliquid eius! Ex facere laudantium veritatis accusamus, a, minus velit at placeat sunt enim.</h1>
 		</div>
@@ -77,15 +69,15 @@
 		<!-- studio/family/services-->
 	  <div class="container-fluid">
 			<div class="row my-5">
-				<div class="card col-lg-4 border-primary">
+				<div class="card col-lg-4 border-primary" id="cardstudio">
 					<div class="card-body">
-						<h1 class="card-header p-3 bg-primary text-center">studio</h1>
+						<h1 class="card-header p-3 bg-primary text-center" >studio</h1>
 						<div class="card-title text-center py-4">
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores incidunt repellendus dicta voluptates dolorem facilis placeat, veritatis itaque est minima, eius iure ullam? Ad ipsa aliquid earum, nemo nam aut.</p>
 						</div>
 					</div>
 				</div>
-				<div class="card col-lg-4 border-danger">
+				<div class="card col-lg-4 border-danger" id="cardfam">
 					<div class="card-body">
 						<h1 class="card-header p-3 bg-danger text-center">Family</h1>
 						<div class="card-title text-center py-4">
@@ -111,7 +103,7 @@
 		   		<a class="nav-link active"><strong>&copy; 2018 <em>altamash momin, doug gallo, ryan hillsinger</em></strong></a>
 	   		</li>
 	  
-					<ul class="nav nav-bar">
+					<ul class="nav nav-bar" id="icons">
 						<li class="nav-item">
 							<a class="nav-link" href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
 						</li>

@@ -1,6 +1,88 @@
-#studio {
+.AGL {
+    border-color:black;
+    border-style: groove;
+    border-radius: 12%;
+    font-size: 19px;
+    margin: 15px;
+    transition-duration: 1s;
+}
+
+.AGL:hover {
+    background-color: white;
+}
+
+.studio {
+    border-color: black;
+    border-style: groove;
+    border-radius: 12%;
+    font-size: 19px;
+    margin-right: 10px;
+    color: black;
+    font-weight: bolder;
+    transition-duration: 1s;
+}
+
+.studio:hover {
+    background-color: white;
+}
+
+.projects {
+    border-color: black;
+    border-style: groove;
+    border-radius: 12%;
+    font-size: 19px;
+    margin-right: 10px;
+    color: black;
+    font-weight: bolder;
+    transition-duration: 1s;
+}
+
+.projects:hover {
+    background-color: white;
+}
+
+.family {
+    border-color: black;
+    border-style: groove;
+    border-radius: 12%;
+    font-size: 19px;
+    margin-right: 10px;
+    color: black;
+    font-weight: bolder;
+    transition-duration: 1s;
+}
+
+.family:hover {
+    background-color: white;
+}
+
+.services {
     border-color: black;
     border-style: double;
-    border-radius: 10%;
+    border-style: groove;
+    border-radius: 12%;
     font-size: 19px;
+    margin-right: 10px;
+    color: black;
+    font-weight: bolder;
+    transition-duration: 1s;
+}
+
+.services:hover {
+    background-color: white;
+}
+
+.contact {
+    border-color: black;
+    border-style: groove;
+    border-radius: 12%;
+    font-size: 19px;
+    margin-right: 10px;
+    color: black;
+    font-weight: bolder;
+    transition-duration: 1s;
+}
+
+.contact:hover {
+    background-color: white;
 }
