@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(32, 66, 66); 
+}
+
 .AGL {
     border-color:black;
     border-style: groove;
@@ -6,13 +10,15 @@
     margin: 15px;
     transition-duration: 1s;
     -webkit-box-shadow: 1px 15px 15px red;
-	box-shadow: 1px 1px 85px red;
+	box-shadow: 0px 0px 75px red;
 }
 
 
 .AGL:hover {
     background-color: white;
+    box-shadow: 0px 0px 65px white;
 }
+
 
 /*#entirelist {
     -webkit-box-shadow: 1px 15px 15px red;
@@ -24,14 +30,18 @@
     border-style: groove;
     border-radius: 12%;
     font-size: 19px;
-    margin-right: 10px;
+    margin-right: 25px;
     color: black;
     font-weight: bolder;
     transition-duration: 1s;
+    padding: 0 auto;
+    box-shadow: 0px 0px 15px red;
 }
 
 .studio:hover {
     background-color: white;
+    color: black;
+    box-shadow: 0px 0px 15px white;
 }
 
 .projects {
@@ -39,14 +49,18 @@
     border-style: groove;
     border-radius: 12%;
     font-size: 19px;
-    margin-right: 10px;
+    margin-right: 25px;
     color: black;
     font-weight: bolder;
     transition-duration: 1s;
+    padding: 0 auto;
+    box-shadow: 0px 0px 15px red;
 }
 
 .projects:hover {
     background-color: white;
+    color: black;
+    box-shadow: 0px 0px 15px white;
 }
 
 .family {
@@ -54,14 +68,18 @@
     border-style: groove;
     border-radius: 12%;
     font-size: 19px;
-    margin-right: 10px;
+    margin-right: 25px;
     color: black;
     font-weight: bolder;
     transition-duration: 1s;
+    padding: 0 auto;
+    box-shadow: 0px 0px 15px red;
 }
 
 .family:hover {
     background-color: white;
+    color: black;
+    box-shadow: 0px 0px 15px white;
 }
 
 .services {
@@ -70,14 +88,18 @@
     border-style: groove;
     border-radius: 12%;
     font-size: 19px;
-    margin-right: 10px;
+    margin-right: 25px;
     color: black;
     font-weight: bolder;
     transition-duration: 1s;
+    padding: 0 auto;
+    box-shadow: 0px 0px 15px red;
 }
 
 .services:hover {
     background-color: white;
+    color: black;
+    box-shadow: 0px 0px 15px white;
 }
 
 .contact {
@@ -85,13 +107,33 @@
     border-style: groove;
     border-radius: 12%;
     font-size: 19px;
-    margin-right: 10px;
+    margin-right: 25px;
     color: black;
     font-weight: bolder;
     transition-duration: 1s;
+    padding: 0 auto;
+    box-shadow: 0px 0px 15px red;
 }
 
 .contact:hover {
     background-color: white;
+    color: black;
+    box-shadow: 0px 0px 15px white;
+}
+
+.slideshow {
+    border-color:white;
+    border-style: groove;
+    box-shadow: 0px 0px 15em red;
+    transition-duration: 2s;
+}
+
+.slideshow:hover {
+    box-shadow: 0px 0px 5em white;
+}
+
+.slideshow:hover::after {
+    box-shadow: 0px 0px 15em red;
+    transition-duration: 2s;
 }
 
